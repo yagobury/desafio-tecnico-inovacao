@@ -1,0 +1,98 @@
+COMANDOS PARA SUBIR NO GITHUB
+==============================
+
+PASSO 1 - CONFIGURAR GIT (se ainda nao configurou)
+---------------------------------------------------
+
+# configurar seu nome (substitua pelo seu nome)
+git config --global user.name "Seu Nome"
+
+# configurar seu email (substitua pelo seu email do github)
+git config --global user.email "seuemail@exemplo.com"
+
+
+PASSO 2 - CRIAR REPOSITORIO NO GITHUB
+---------------------------------------
+
+1. acesse github.com e faca login
+2. clique no botao "+" no canto superior direito
+3. escolha "New repository"
+4. de um nome pro repo (ex: "desafio-tecnico-analista-inovacao")
+5. deixe como PUBLIC ou PRIVATE (como preferir)
+6. NAO marque "Initialize with README" (ja temos um)
+7. clique em "Create repository"
+
+
+PASSO 3 - INICIALIZAR GIT NO PROJETO
+--------------------------------------
+
+# entrar na pasta do projeto
+cd "C:\Users\Windows 10\Downloads\teste vaga\desafio-tecnico"
+
+# inicializar git (se ainda nao tiver)
+git init
+
+# adicionar todos os arquivos
+git add .
+
+# fazer o primeiro commit
+git commit -m "entrega desafio tecnico - dashboard BCB e RPA demoqa"
+
+
+PASSO 4 - CONECTAR COM O GITHUB
+---------------------------------
+
+# adicionar o repositorio remoto (substitua SEU_USUARIO e NOME_DO_REPO)
+git remote add origin https://github.com/SEU_USUARIO/NOME_DO_REPO.git
+
+# exemplo:
+# git remote add origin https://github.com/yagobury/desafio-tecnico-analista-inovacao.git
+
+
+PASSO 5 - SUBIR O CODIGO
+--------------------------
+
+# enviar tudo pro github
+git branch -M main
+git push -u origin main
+
+# se pedir login, use seu usuario e senha do github
+# (ou token de acesso pessoal se tiver 2FA ativado)
+
+
+COMANDOS RAPIDOS (se ja tiver git configurado)
+===============================================
+
+cd "C:\Users\Windows 10\Downloads\teste vaga\desafio-tecnico"
+git init
+git add .
+git commit -m "entrega desafio tecnico"
+git remote add origin https://github.com/SEU_USUARIO/NOME_DO_REPO.git
+git branch -M main
+git push -u origin main
+
+
+SE DER ERRO DE AUTENTICACAO
+============================
+
+se pedir usuario/senha e nao funcionar:
+
+1. va em github.com > Settings > Developer settings > Personal access tokens
+2. clique em "Generate new token (classic)"
+3. marque a opcao "repo" (da acesso completo aos repositorios)
+4. gere o token e copie
+5. quando pedir senha, cole o token no lugar da senha
+
+
+PARA COMPARTILHAR COM sha-rif
+==============================
+
+depois de subir:
+1. va no seu repositorio no github
+2. clique em "Settings"
+3. va em "Collaborators"
+4. clique em "Add people"
+5. digite "sha-rif" e adicione
+
+ou envie o link do repositorio diretamente
+

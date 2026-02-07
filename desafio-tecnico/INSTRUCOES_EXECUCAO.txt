@@ -1,0 +1,66 @@
+INSTRUCOES DE EXECUCAO - DESAFIO TECNICO
+
+PARTE 1 - DASHBOARD BCB
+========================
+
+1. entrar na pasta:
+   cd parte1-dashboard/dashboard-bcb
+
+2. instalar dependencias:
+   npm install
+
+3. atualizar dados (opcional, se quiser dados mais recentes):
+   cd ../data
+   python fetch_bcb_data.py
+   cd ../../dashboard-bcb
+
+4. rodar o servidor:
+   npm run dev
+
+5. abrir no navegador:
+   http://localhost:3000
+
+pronto, o dashboard vai abrir com todos os kpis e graficos
+
+
+PARTE 2 - RPA DEMOQA
+=======================
+
+1. entrar na pasta:
+   cd parte2-rpa
+
+2. instalar dependencias:
+   pip install -r requirements.txt
+   python -m playwright install
+
+3. rodar tudo:
+   python run_all.py
+
+pronto, isso vai:
+- abrir o navegador automaticamente
+- rodar os 4 cenarios
+- gerar todos os outputs na pasta outputs/
+- gravar video da execucao
+- criar log completo
+
+depois de rodar, os arquivos vao estar em:
+- outputs/text_box_result.json
+- outputs/checkbox_result.json
+- outputs/webtables_extract.csv
+- outputs/webtables_summary.json
+- outputs/upload_result.json
+- outputs/execution_report.json
+- outputs/execution.log
+- outputs/videos/ (videos gravados)
+
+
+OBSERVACOES IMPORTANTES
+========================
+
+- na parte 1, os dados ja vem pre-processados em json na pasta data/raw/
+- se quiser atualizar, roda o script fetch_bcb_data.py
+- na parte 2, o script cria a pasta outputs/ automaticamente se nao existir
+- o video fica em outputs/videos/ com nome aleatorio gerado pelo playwright
+- todos os logs ficam em outputs/execution.log
+- se der algum erro, olha o log que mostra o que aconteceu
+
