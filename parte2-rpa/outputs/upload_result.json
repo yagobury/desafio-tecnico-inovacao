@@ -1,0 +1,12 @@
+{
+  "cenario": "upload_and_download",
+  "timestamp": "2026-02-07T21:09:33.402432",
+  "arquivo_enviado": "C:\\Users\\Windows 10\\Downloads\\teste vaga\\desafio-tecnico\\parte2-rpa\\assets\\documento_teste.pdf",
+  "nome_arquivo": "documento_teste.pdf",
+  "confirmacao_ui": "C:\\fakepath\\documento_teste.pdf",
+  "upload_validado": true,
+  "download_realizado": true,
+  "arquivo_baixado": "sampleFile.jpeg",
+  "caminho_arquivo_baixado": "C:\\Users\\Windows 10\\Downloads\\teste vaga\\desafio-tecnico\\parte2-rpa\\outputs\\sampleFile.jpeg",
+  "status": "sucesso"
+}

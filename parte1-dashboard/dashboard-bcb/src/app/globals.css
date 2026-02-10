@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Fira+Code:wght@400;500;600;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  font-family: 'Inter', sans-serif;
+  -webkit-font-smoothing: antialiased;
+}
+
+/* Scrollbar - Dark theme (default) - FiscALL Soluções */
+::-webkit-scrollbar {
+  width: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #141E1A;
+}
+::-webkit-scrollbar-thumb {
+  background: rgba(212, 118, 44, 0.5);
+  border-radius: 3px;
+}
+
+/* Scrollbar - Light theme - FiscALL Soluções */
+:root[data-theme="light"] ::-webkit-scrollbar-track {
+  background: #EFEDE6;
+}
+:root[data-theme="light"] ::-webkit-scrollbar-thumb {
+  background: rgba(212, 118, 44, 0.5);
+}

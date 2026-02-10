@@ -1,0 +1,10 @@
+{
+  "cenario": "check_box",
+  "timestamp": "2026-02-07T21:08:59.522284",
+  "itens_selecionados": [
+    "commands",
+    "general"
+  ],
+  "resultado_exibido": "You have selected :\ncommands\ngeneral",
+  "status": "sucesso"
+}

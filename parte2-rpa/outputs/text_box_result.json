@@ -1,0 +1,17 @@
+{
+  "cenario": "text_box",
+  "timestamp": "2026-02-07T21:08:35.973455",
+  "dados_enviados": {
+    "full_name": "Yago Bury",
+    "email": "yagobury14@outlook.com",
+    "current_address": "Rua Terra Roxa, 48 -  São Braz",
+    "permanent_address": "Rua Terra Roxa, 48 -  São Braz"
+  },
+  "resultado_exibido": {
+    "name": "Name:Yago Bury",
+    "email": "Email:yagobury14@outlook.com",
+    "currentAddress": "Current Address :Rua Terra Roxa, 48 - São Braz",
+    "permanentAddress": "Permananet Address :Rua Terra Roxa, 48 - São Braz"
+  },
+  "status": "sucesso"
+}

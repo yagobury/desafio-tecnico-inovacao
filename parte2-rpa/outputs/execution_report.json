@@ -1,0 +1,15 @@
+{
+  "execucao": {
+    "timestamp_inicio": "2026-02-07T21:07:45.329218",
+    "timestamp_fim": "2026-02-07T21:09:37.127912",
+    "duracao_segundos": 111.8,
+    "cenarios_executados": 4,
+    "cenarios_com_sucesso": 4
+  },
+  "resultados": {
+    "text_box": "sucesso",
+    "check_box": "sucesso",
+    "web_tables": "sucesso",
+    "upload": "sucesso"
+  }
+}

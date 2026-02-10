@@ -1,0 +1,38 @@
+{
+  "cenario": "web_tables",
+  "timestamp": "2026-02-07T21:09:10.635644",
+  "total_registros": 3,
+  "media_salary": 8000.0,
+  "registros_por_department": {
+    "Insurance": 1,
+    "Compliance": 1,
+    "Legal": 1
+  },
+  "dados_extraidos": [
+    {
+      "First Name": "Cierra",
+      "Last Name": "Vega",
+      "Age": "39",
+      "Email": "cierra@example.com",
+      "Salary": "10000",
+      "Department": "Insurance"
+    },
+    {
+      "First Name": "Alden",
+      "Last Name": "Cantrell",
+      "Age": "45",
+      "Email": "alden@example.com",
+      "Salary": "12000",
+      "Department": "Compliance"
+    },
+    {
+      "First Name": "Kierra",
+      "Last Name": "Gentry",
+      "Age": "29",
+      "Email": "kierra@example.com",
+      "Salary": "2000",
+      "Department": "Legal"
+    }
+  ],
+  "status": "sucesso"
+}
